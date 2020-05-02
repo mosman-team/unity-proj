@@ -25,6 +25,7 @@ public class Scarecow : MonoBehaviour
     }
     public void destroyScarecow()
     {
+
         Destroy(gameObject);
     }
 }
