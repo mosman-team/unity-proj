@@ -783,6 +783,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2296296451680177116, guid: c72a88dc57799a748b63f992f8360079,
+        type: 3}
+      propertyPath: winLabel
+      value: 
+      objectReference: {fileID: 6978310952415517348, guid: a848dd78fe51d2b4e963d500083a37a5,
+        type: 3}
+    - target: {fileID: 2296296451680177116, guid: c72a88dc57799a748b63f992f8360079,
+        type: 3}
+      propertyPath: loseCanvas
+      value: 
+      objectReference: {fileID: 7929182623179972347, guid: f5f2d83c4daf00b4794198fdbfd7b900,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c72a88dc57799a748b63f992f8360079, type: 3}
 --- !u!114 &1935512878 stripped

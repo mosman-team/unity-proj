@@ -6,7 +6,7 @@ public class Attacker : MonoBehaviour
 {
     //[Range(0f, 5f)] [SerializeField] float walkSpeed = 1f;
 
-    float currentSpeed = 1f;
+    [SerializeField] float currentSpeed = 1f;
     GameObject currentTarget;
     Animator animator;
 
@@ -42,7 +42,7 @@ public class Attacker : MonoBehaviour
             levelController.AttackerKilled();
         }
     }
-
+    
     private void UpdateAnimationState()
     {
         if (!currentTarget)
