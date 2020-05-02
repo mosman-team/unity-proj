@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class LevelController : MonoBehaviour
 {
-
+    [SerializeField] float waitToLoad = 4f;
     [SerializeField] int aliveAttackers;
     bool gameTimerFinished = false;
     [SerializeField] GameObject winLabel;
@@ -51,10 +51,10 @@ public class LevelController : MonoBehaviour
     }
     IEnumerator HandleWinCondition()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(waitToLoad);
         winLabel.SetActive(true);
         audioSource.Play();
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(waitToLoad);
         GetComponent<LevelLoader>().LoadNextScene();
     }
     public void HandleLoseCondition()
