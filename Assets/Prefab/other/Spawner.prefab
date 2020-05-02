@@ -44,7 +44,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attakerPrefabs:
-  - {fileID: 3692996904441252115, guid: c02b4efc72f7b0243b0c79af6918e8c3, type: 3}
   - {fileID: 8031493795195612277, guid: a600eb99a3d9e1949a49c0d6a9a03865, type: 3}
-  minSpawnDelay: 3
-  maxSpawnDelay: 5
+  minSpawnDelay: 2
+  maxSpawnDelay: 6

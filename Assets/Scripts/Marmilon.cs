@@ -11,5 +11,14 @@ public class Marmilon : MonoBehaviour
         animator = GetComponent<Animator>();
 
     }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        GameObject otherObject = other.gameObject;
+        if (otherObject.GetComponent<Attacker>())
+        {
+            GetComponent<Defender>().Attack(otherObject);
+        }
+
+    }
 
 }

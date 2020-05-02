@@ -14,8 +14,9 @@ public class Health : MonoBehaviour
         
         if(health <= 0)
         {
-            TriggerDeathVFX();
-            Destroy(gameObject);
+            GetComponent<Collider2D>().enabled = false;
+            Debug.Log("Here");
+            GetComponent<Animator>().SetBool("isDead", true);
         }
     }
 
@@ -27,6 +28,10 @@ public class Health : MonoBehaviour
 
         Destroy(deathVFXObject, 1f);
         
+    }
+    void DestroyWarrior()
+    {
+        Destroy(gameObject);
     }
     public int getHealth()
     {

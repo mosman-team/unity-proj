@@ -45,9 +45,10 @@ public class Attacker : MonoBehaviour
     
     private void UpdateAnimationState()
     {
-        if (!currentTarget)
+        if (currentTarget && currentTarget.GetComponent<Health>().getHealth() <= 0 )
         {
             animator.SetBool("isAttacking", false);
+            currentTarget = null;
         }
     }
 
@@ -67,12 +68,11 @@ public class Attacker : MonoBehaviour
         Health health = currentTarget.GetComponent<Health>();
         if (health)
         {
-            
             health.DealDamage(damage);
-            
         }
 
     }
+
     public void setMovementDirection(Vector2 dir)
     {
         this.movementDirection = dir;

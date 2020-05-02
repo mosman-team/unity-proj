@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Marmilon Walk
+  m_Name: hairless_barbarian_attack
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,18 +20,20 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300026, guid: 1b80a24b4d90c4346a05e21db6f4cdd4, type: 3}
+      value: {fileID: 21300000, guid: 691fdaee8ef928d4da6831d02c0863ef, type: 3}
     - time: 0.125
-      value: {fileID: 21300028, guid: 1b80a24b4d90c4346a05e21db6f4cdd4, type: 3}
+      value: {fileID: 21300002, guid: 691fdaee8ef928d4da6831d02c0863ef, type: 3}
     - time: 0.25
-      value: {fileID: 21300030, guid: 1b80a24b4d90c4346a05e21db6f4cdd4, type: 3}
-    - time: 0.375
-      value: {fileID: 21300032, guid: 1b80a24b4d90c4346a05e21db6f4cdd4, type: 3}
+      value: {fileID: 21300004, guid: 691fdaee8ef928d4da6831d02c0863ef, type: 3}
+    - time: 0.41666666
+      value: {fileID: 21300006, guid: 691fdaee8ef928d4da6831d02c0863ef, type: 3}
+    - time: 0.5416667
+      value: {fileID: 21300008, guid: 691fdaee8ef928d4da6831d02c0863ef, type: 3}
     attribute: m_Sprite
-    path: 
+    path: body
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 8
+  m_SampleRate: 24
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -39,23 +41,24 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 0
+      path: 3685223346
       attribute: 0
       script: {fileID: 0}
       typeID: 212
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300026, guid: 1b80a24b4d90c4346a05e21db6f4cdd4, type: 3}
-    - {fileID: 21300028, guid: 1b80a24b4d90c4346a05e21db6f4cdd4, type: 3}
-    - {fileID: 21300030, guid: 1b80a24b4d90c4346a05e21db6f4cdd4, type: 3}
-    - {fileID: 21300032, guid: 1b80a24b4d90c4346a05e21db6f4cdd4, type: 3}
+    - {fileID: 21300000, guid: 691fdaee8ef928d4da6831d02c0863ef, type: 3}
+    - {fileID: 21300002, guid: 691fdaee8ef928d4da6831d02c0863ef, type: 3}
+    - {fileID: 21300004, guid: 691fdaee8ef928d4da6831d02c0863ef, type: 3}
+    - {fileID: 21300006, guid: 691fdaee8ef928d4da6831d02c0863ef, type: 3}
+    - {fileID: 21300008, guid: 691fdaee8ef928d4da6831d02c0863ef, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.5
+    m_StopTime: 0.5833334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -74,4 +77,18 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: SetMovementSpeed
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.5
+    functionName: StrikeCurrentTarget
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 1
+    intParameter: 50
+    messageOptions: 0
