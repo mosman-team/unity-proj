@@ -6,21 +6,28 @@ public class ProjectileController : MonoBehaviour
 {
 
     [Range(1f, 5f)] [SerializeField] float projectileSpeed;
-    [SerializeField] int damage = 50; 
+    [SerializeField] int damage = 50;
+
+    Vector2 projectileDirection;
+
+    void Start()
+    {
+        projectileDirection = Vector2.left;
+    }
 
     //[SerializeField] float rotateBy;
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.right * Time.deltaTime * projectileSpeed);
+        transform.Translate(projectileDirection * Time.deltaTime * projectileSpeed);
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
 
         var health = other.GetComponent<Health>();
-        var attacker = other.GetComponent<Attacker>();
+        var attacker = other.GetComponent<Defender>();
 
         if (health && attacker)
         {
@@ -28,6 +35,10 @@ public class ProjectileController : MonoBehaviour
             Destroy(gameObject);
         }
 
+    }
+    public void setProjectileDirection(Vector2 dir)
+    {
+        this.projectileDirection = dir;
     }
 
 }

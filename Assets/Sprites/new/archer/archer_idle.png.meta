@@ -1,12 +1,13 @@
 fileFormatVersion: 2
-guid: c303a01c2188e504b91cc553466f8a60
+guid: fd1907803503b2c48b9182c8b4b173f1
 TextureImporter:
   fileIDToRecycleName:
-    21300000: hairless_barbarian_die_0
-    21300002: hairless_barbarian_die_1
-    21300004: hairless_barbarian_die_2
-    21300006: hairless_barbarian_die_3
-    21300008: hairless_barbarian_die_4
+    21300000: archer_idle_0
+    21300002: archer_idle_1
+    21300004: archer_idle_2
+    21300006: archer_idle_3
+    21300008: archer_idle_4
+    21300010: archer_idle_5
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -50,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 115
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +101,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hairless_barbarian_die_0
+      name: archer_idle_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 26
-        width: 78
-        height: 102
+        x: 20
+        y: 0
+        width: 96
+        height: 116
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,79 +115,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9afde695475f5ba4da9e77e4eef56b82
+      spriteID: b07f492312a2791448336dfede1e1712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hairless_barbarian_die_1
+      name: archer_idle_1
       rect:
         serializedVersion: 2
-        x: 228
-        y: 26
-        width: 69
-        height: 105
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e58ce5f94acc1544b81e7c00d5b09cb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hairless_barbarian_die_2
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 26
-        width: 85
-        height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d401d9cb13d42fb49a6a4ee068426f1b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hairless_barbarian_die_3
-      rect:
-        serializedVersion: 2
-        x: 660
-        y: 26
-        width: 92
-        height: 114
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: df8b0f5659fbb574f97cd0f4b9f967a3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hairless_barbarian_die_4
-      rect:
-        serializedVersion: 2
-        x: 874
-        y: 26
+        x: 237
+        y: 3
         width: 103
-        height: 114
+        height: 113
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,7 +135,67 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f9cf298d8061fa40ac1f6d5b3cf39fb
+      spriteID: ba50b4d1ec651874c974c3cd8c011ba0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer_idle_2
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 3
+        width: 104
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb1d59730e122ab499fdaf3ea7273102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer_idle_3
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 0
+        width: 104
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1d54d5c65e61f4b9cb31aabcbf2cb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer_idle_5
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 4
+        width: 96
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac0fb4e55da5ef240bdeb09b2abdab41
       vertices: []
       indices: 
       edges: []
@@ -202,7 +203,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 28c590940cb56d64e9ddcd6a842341a9
+    spriteID: 61dbcaf6ee3ab5847a5644c2e059290c
     vertices: []
     indices: 
     edges: []

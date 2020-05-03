@@ -13,8 +13,12 @@ public class Detector : MonoBehaviour
     
     void OnTriggerEnter2D(Collider2D collision)
     {
-        healthText.decreaseHealth();
-        Destroy(collision.gameObject, 1f);
+        if (collision.gameObject.GetComponent<Attacker>())
+        {
+            healthText.decreaseHealth();
+            Destroy(collision.gameObject, 1f);
+        }
+        
     }
 
 }

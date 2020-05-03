@@ -15,7 +15,6 @@ public class Health : MonoBehaviour
         if(health <= 0)
         {
             GetComponent<Collider2D>().enabled = false;
-            Debug.Log("Here");
             GetComponent<Animator>().SetBool("isDead", true);
         }
     }

@@ -1,12 +1,14 @@
 fileFormatVersion: 2
-guid: c303a01c2188e504b91cc553466f8a60
+guid: ad25601ce24dfc34eacd7b64d264ad4e
 TextureImporter:
   fileIDToRecycleName:
-    21300000: hairless_barbarian_die_0
-    21300002: hairless_barbarian_die_1
-    21300004: hairless_barbarian_die_2
-    21300006: hairless_barbarian_die_3
-    21300008: hairless_barbarian_die_4
+    21300000: archer_walk_0
+    21300002: archer_walk_1
+    21300004: archer_walk_2
+    21300006: archer_walk_3
+    21300008: archer_walk_4
+    21300010: archer_walk_5
+    21300012: archer_walk_6
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -50,7 +52,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 115
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,73 +102,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hairless_barbarian_die_0
+      name: archer_walk_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 26
-        width: 78
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9afde695475f5ba4da9e77e4eef56b82
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hairless_barbarian_die_1
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 26
-        width: 69
-        height: 105
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e58ce5f94acc1544b81e7c00d5b09cb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hairless_barbarian_die_2
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 26
-        width: 85
-        height: 110
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d401d9cb13d42fb49a6a4ee068426f1b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hairless_barbarian_die_3
-      rect:
-        serializedVersion: 2
-        x: 660
-        y: 26
+        x: 9
+        y: 12
         width: 92
-        height: 114
+        height: 113
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,18 +116,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df8b0f5659fbb574f97cd0f4b9f967a3
+      spriteID: 387a61aeae2d96648908c283f8f0e11f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hairless_barbarian_die_4
+      name: archer_walk_2
       rect:
         serializedVersion: 2
-        x: 874
-        y: 26
-        width: 103
+        x: 238
+        y: 10
+        width: 88
         height: 114
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -194,7 +136,67 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f9cf298d8061fa40ac1f6d5b3cf39fb
+      spriteID: 3d08c6938f90b45408e280969c549ec6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer_walk_3
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 12
+        width: 96
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fd50b1d4b37ad4e824a108d47701c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer_walk_4
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 13
+        width: 88
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bd5c7f3e9f47340a76c42a0fd53b41
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer_walk_5
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 10
+        width: 95
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fe58c2ef65f9f46a806e46339a98fd
       vertices: []
       indices: 
       edges: []
@@ -202,7 +204,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 28c590940cb56d64e9ddcd6a842341a9
+    spriteID: fbe247d1ece3f554488e104b15d41437
     vertices: []
     indices: 
     edges: []

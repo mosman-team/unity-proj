@@ -1,12 +1,17 @@
 fileFormatVersion: 2
-guid: c303a01c2188e504b91cc553466f8a60
+guid: a3e0e7e69afc28b4fa364e02765a276e
 TextureImporter:
   fileIDToRecycleName:
-    21300000: hairless_barbarian_die_0
-    21300002: hairless_barbarian_die_1
-    21300004: hairless_barbarian_die_2
-    21300006: hairless_barbarian_die_3
-    21300008: hairless_barbarian_die_4
+    21300000: archer_attack_0
+    21300002: archer_attack_1
+    21300004: archer_attack_2
+    21300006: archer_attack_3
+    21300008: archer_attack_4
+    21300010: archer_attack_1
+    21300012: archer_attack_6
+    21300014: archer_attack_7
+    21300016: archer_attack_8
+    21300018: archer_attack_9
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -46,11 +51,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 115
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hairless_barbarian_die_0
+      name: archer_attack_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 26
-        width: 78
-        height: 102
+        x: 11
+        y: 16
+        width: 95
+        height: 111
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -114,19 +119,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9afde695475f5ba4da9e77e4eef56b82
+      spriteID: 6780733e35146e44399a84970bff4e39
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hairless_barbarian_die_1
+      name: archer_attack_3
       rect:
         serializedVersion: 2
-        x: 228
-        y: 26
-        width: 69
-        height: 105
+        x: 602
+        y: 12
+        width: 112
+        height: 115
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,19 +139,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e58ce5f94acc1544b81e7c00d5b09cb
+      spriteID: 75b0ddc4c15d55b46b296ae1ed12ec96
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hairless_barbarian_die_2
+      name: archer_attack_4
       rect:
         serializedVersion: 2
-        x: 449
-        y: 26
-        width: 85
-        height: 110
+        x: 838
+        y: 8
+        width: 100
+        height: 122
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,19 +159,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d401d9cb13d42fb49a6a4ee068426f1b
+      spriteID: 58bb35578b481af4f95a09a107be185a
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hairless_barbarian_die_3
+      name: archer_attack_1
       rect:
         serializedVersion: 2
-        x: 660
-        y: 26
-        width: 92
-        height: 114
+        x: 198
+        y: 10
+        width: 106
+        height: 116
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,19 +179,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df8b0f5659fbb574f97cd0f4b9f967a3
+      spriteID: d188cf38f284c414b8dfb852696a8697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hairless_barbarian_die_4
+      name: archer_attack_2
       rect:
         serializedVersion: 2
-        x: 874
-        y: 26
-        width: 103
-        height: 114
+        x: 409
+        y: 8
+        width: 121
+        height: 118
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,7 +199,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f9cf298d8061fa40ac1f6d5b3cf39fb
+      spriteID: 4b68bf982b8dc5b46afb3614b2a3ca34
       vertices: []
       indices: 
       edges: []
@@ -202,7 +207,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 28c590940cb56d64e9ddcd6a842341a9
+    spriteID: 6c810822cb2c6ab44a75e49476812921
     vertices: []
     indices: 
     edges: []

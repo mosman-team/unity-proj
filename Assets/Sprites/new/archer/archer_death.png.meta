@@ -1,12 +1,15 @@
 fileFormatVersion: 2
-guid: c303a01c2188e504b91cc553466f8a60
+guid: 16156bf6abe95bc46990523fb63246ff
 TextureImporter:
   fileIDToRecycleName:
-    21300000: hairless_barbarian_die_0
-    21300002: hairless_barbarian_die_1
-    21300004: hairless_barbarian_die_2
-    21300006: hairless_barbarian_die_3
-    21300008: hairless_barbarian_die_4
+    21300000: archer_death_0
+    21300002: archer_death_1
+    21300004: archer_death_2
+    21300006: archer_death_3
+    21300008: archer_death_4
+    21300010: archer_death_5
+    21300012: archer_death_6
+    21300014: archer_death_7
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -50,7 +53,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 115
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,52 +103,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hairless_barbarian_die_0
+      name: archer_death_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 26
-        width: 78
-        height: 102
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9afde695475f5ba4da9e77e4eef56b82
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hairless_barbarian_die_1
-      rect:
-        serializedVersion: 2
-        x: 228
-        y: 26
-        width: 69
-        height: 105
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6e58ce5f94acc1544b81e7c00d5b09cb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hairless_barbarian_die_2
-      rect:
-        serializedVersion: 2
-        x: 449
-        y: 26
-        width: 85
+        x: 7
+        y: 18
+        width: 87
         height: 110
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -154,19 +117,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d401d9cb13d42fb49a6a4ee068426f1b
+      spriteID: 95fc26e2a8f03cb4c84276bf5b430b62
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hairless_barbarian_die_3
+      name: archer_death_2
       rect:
         serializedVersion: 2
-        x: 660
-        y: 26
-        width: 92
-        height: 114
+        x: 206
+        y: 17
+        width: 130
+        height: 104
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,19 +137,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df8b0f5659fbb574f97cd0f4b9f967a3
+      spriteID: 9b665deef80ea3b41a84ad9408d11678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hairless_barbarian_die_4
+      name: archer_death_4
       rect:
         serializedVersion: 2
-        x: 874
-        y: 26
-        width: 103
-        height: 114
+        x: 416
+        y: 14
+        width: 88
+        height: 107
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,7 +157,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f9cf298d8061fa40ac1f6d5b3cf39fb
+      spriteID: 4e23c0fb5f8165c45a5810a31a0592fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer_death_5
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 10
+        width: 100
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668a6fdfd62689c41a91ccfda9da20be
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: archer_death_6
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 2
+        width: 108
+        height: 122
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448d2671545369f4b9a41dbb5378eba0
       vertices: []
       indices: 
       edges: []
@@ -202,7 +205,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 28c590940cb56d64e9ddcd6a842341a9
+    spriteID: b17c889a8e533ce459c3fff2a29df377
     vertices: []
     indices: 
     edges: []
