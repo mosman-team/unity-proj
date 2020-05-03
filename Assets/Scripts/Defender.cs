@@ -27,9 +27,13 @@ public class Defender : MonoBehaviour
         transform.Translate(Vector2.right * currentSpeed * Time.deltaTime);
         UpdateAnimationState();
     }
-
+        
     private void UpdateAnimationState()
     {
+        if (gameObject.GetComponent<CastleHealth>())
+        {
+            return;
+        }
         if (!currentTarget)
         {
             animator.SetBool("isAttacking", false);

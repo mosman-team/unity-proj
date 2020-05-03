@@ -9,6 +9,8 @@ public class Vision : MonoBehaviour
 
         GameObject otherObject = other.gameObject;
 
+        Debug.Log(otherObject.name);
+
         if (otherObject.GetComponent<Defender>())
         {
             GetComponentInParent<Attacker>().Attack(otherObject);

@@ -47,4 +47,4 @@ MonoBehaviour:
   - {fileID: 8031493795195612277, guid: a600eb99a3d9e1949a49c0d6a9a03865, type: 3}
   - {fileID: 2011955398743043778, guid: ae668f89c31c36843bdaae2661fb0beb, type: 3}
   minSpawnDelay: 4
-  maxSpawnDelay: 10
+  maxSpawnDelay: 6

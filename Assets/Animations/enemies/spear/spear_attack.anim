@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: spear_attack
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves: []
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves:
+  - curve:
+    - time: 0
+      value: {fileID: 21300000, guid: aaaf2227c28ec514d8e2a7f1e2279fd6, type: 3}
+    - time: 0.083333336
+      value: {fileID: 21300000, guid: 85bc0f6a507a4514b91ac2a4a23131f7, type: 3}
+    - time: 0.20833333
+      value: {fileID: 21300000, guid: d8ba6e99712ce4f4f9ef47c87d02da1b, type: 3}
+    - time: 0.29166666
+      value: {fileID: 21300000, guid: 0862a6b4a84a84c48a08634e62981232, type: 3}
+    - time: 0.375
+      value: {fileID: 21300000, guid: 9501eaa6818f410478d7d40f7d05b1ff, type: 3}
+    - time: 0.45833334
+      value: {fileID: 21300000, guid: c4bad45059543414d8be7651b8c691d8, type: 3}
+    - time: 0.5833333
+      value: {fileID: 21300000, guid: 8af83e0cabcf4aa479b2bb4a3ca3cee3, type: 3}
+    - time: 0.6666667
+      value: {fileID: 21300000, guid: ab68b45fdd2e20943b1eb343480d7274, type: 3}
+    attribute: m_Sprite
+    path: body
+    classID: 212
+    script: {fileID: 0}
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 3685223346
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
+    pptrCurveMapping:
+    - {fileID: 21300000, guid: aaaf2227c28ec514d8e2a7f1e2279fd6, type: 3}
+    - {fileID: 21300000, guid: 85bc0f6a507a4514b91ac2a4a23131f7, type: 3}
+    - {fileID: 21300000, guid: d8ba6e99712ce4f4f9ef47c87d02da1b, type: 3}
+    - {fileID: 21300000, guid: 0862a6b4a84a84c48a08634e62981232, type: 3}
+    - {fileID: 21300000, guid: 9501eaa6818f410478d7d40f7d05b1ff, type: 3}
+    - {fileID: 21300000, guid: c4bad45059543414d8be7651b8c691d8, type: 3}
+    - {fileID: 21300000, guid: 8af83e0cabcf4aa479b2bb4a3ca3cee3, type: 3}
+    - {fileID: 21300000, guid: ab68b45fdd2e20943b1eb343480d7274, type: 3}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 0.7083334
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves: []
+  m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_Events:
+  - time: 0
+    functionName: SetMovementSpeed
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.5416667
+    functionName: StrikeCurrentTarget
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 65
+    messageOptions: 0

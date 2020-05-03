@@ -8,13 +8,14 @@ public class Health : MonoBehaviour
     [SerializeField] int health = 100;
     [SerializeField] GameObject deathVFX;
 
-    public void DealDamage(int damage)
+    public virtual void DealDamage(int damage)
     {
         health -= damage;
-        
-        if(health <= 0)
+
+        if (health <= 0)
         {
             GetComponent<Collider2D>().enabled = false;
+            Debug.Log("Here");
             GetComponent<Animator>().SetBool("isDead", true);
         }
     }
@@ -35,5 +36,9 @@ public class Health : MonoBehaviour
     public int getHealth()
     {
         return health;
+    }
+    public void setHealth(int health)
+    {
+        this.health = health;
     }
 }
